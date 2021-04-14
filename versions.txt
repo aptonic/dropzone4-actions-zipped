@@ -7,12 +7,12 @@ Send iMessage With Attachment to Phone Number	1.5	1021	0610c768e6361da36328116db
 Pushbullet	1.1	1032	ef9f001a8e3fa451069834114d1e69c5	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
 Say Text	1.2	1023	a2b6faa25fa1d49593ad26560767b65f	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
 Gfycat	1.0		bd5a8db04cb9cd745839b09178a50e3e	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	844d5ca04b57ff155a64e863f22ef982	Uploads images to ImageShack. Drop multiple images to create an album.
-Unbundle Zip by Name	1.0	1008	2092961bdb7013ff1001176dbf4c7bd1	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
+ImageShack	1.2	1005	04e49739bddb6c4c02a59374b5b0f77b	Uploads images to ImageShack. Drop multiple images to create an album.
+Unbundle Zip by Name	1.0	1008	fc098d9e1c2de66e962f6b793fe83895	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
 Screenshot	1.0	1037	287e7a4eeb6be7a098079b08fe267bf8	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	156f64cb7a7ec556222f3682fdff006a	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
 Clone Git Repository	1.5	1031	047c932c48113ae0022551c04f6e3980	Drag the URL of a git repository onto this action and it will be cloned into the selected folder.\n\nHold the command key to select a different destination folder. Hold Shift to clone all project history.
-Trash	1.1		9b7279145e1090d72f9a63f105f34329	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
+Trash	1.1		81e2146bb10e489c514d01b99414aaac	An action to throw items into the trash if Finder is running. Otherwise, it simply deletes them using the command line.
 Convert to MP4	1.3	23451	6a618fd74d0d3a29832d9f5a53365674	Converts the dropped videos to the MP4 format using ffmpeg. Hold down Option to trash source files after conversion. Hold down Shift to convert to HEVC. Hold down Command to only change container without converting. Hold down Control to extract audio (only works with aac).
 AutoRemote	1.0	7004	9b64cd7189eef62a84ab89b5d216818e	Drag an URL to automatically open it on your Android device with AutoRemote. Hold Command Key to send a file URL. Click to configure and send a message.
 Open iTerm at Path	1.1		b09abaa3aeb79ba79606d7c346e31b58	iTerm v2.9+ required. This action uses the new Applescript used in iTerm 2.9. Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path. Slightly modified version of the original action for Terminal by Dennis Kuypers.
@@ -33,12 +33,12 @@ Image Search	1.0	1022	21ec35604b009b1edf6dca8c01e73326	Dropped images will be se
 Qiniu	1.3	0830	c810c9ba3bc290114abe381bed906755	Upload images to qiniu.com
                 Quick image converter and compressor	             1.1.0		4e1a9f794fcaec5bcbc5614ac3fade27	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
 Slack	1.1	1019	84717c5362e7c3e45df1e41ea5a2d79e	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-md5 Filename	1.0.0		fada3c69a0829860c4e717176085e103	Renames any dragged file(s) to a random, eight-characters-long md5 string.
-Show Image Size	1.0.0		b8596fd3c4c58558e328af0ff17c88d9	Displays the width and height of a local or remote image file.
+md5 Filename	1.0.0		6d6b88458620b70d6fab506f41db87b9	Renames any dragged file(s) to a random, eight-characters-long md5 string.
+Show Image Size	1.0.0		8f836d8807bc44a874bb87b8c354af8c	Displays the width and height of a local or remote image file.
 DRACOON	2.0.2	3920135319837973180911208394894	840692f4eb21f1e91955b9c4decd60b2	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
 Install Application	1.4	1011	6d39146f8f4218f373169c3fdbe25cba	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
-Kaleidoscope Diff	1.1	1018	27af1eb4a5719cfce9396d8ee82dfd81	Drag two or more files to diff them with Kaleidoscope
-Merge Directories	1.2		5350872926e5e4129cacbf62e6fc42c3	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
+Kaleidoscope Diff	1.1	1018	aff900f2f8ee9fc06b06fe67c6f91dd8	Drag two or more files to diff them with Kaleidoscope
+Merge Directories	1.2		5c5bb730163253c98da805c95aea19ca	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
 Google Maps	1.0	168438749	575d158499bb916306fb5da8e76266cd	Localise an address with Google Maps, drag an address to the dropzone or click on the action after pasting an address.
 YouTube Uploader	2.5	1026	345a69f85b57f34457d4749ae1a15980	Uploads dragged videos to YouTube. \n\nYou can select the privacy level and after upload it opens the edit page of the video in the default browser.\n\nBy using this action you agree YouTube Terms of Service at\n https://www.youtube.com/t/terms and the Google privacy policy at https://policies.google.com/privacy\n\nYou can manage or revoke Dropzone's access to your Google Account at https://security.google.com/settings/security/permissions
 Tinify	1.0		7b246ef0d2efb71e27c291968597c363	https://tinypng.com/
