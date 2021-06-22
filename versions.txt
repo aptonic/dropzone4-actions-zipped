@@ -1,13 +1,13 @@
 Up1	1.2	2175601	4f9ebbb389153003d37849228991e3f6	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
 Sparse Image	1.1	7003	f3e3d4df267e3c3141a7d92b67ec42bf	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.2	7002	b5cd0c5434e9d36f6d6f9ff55765d58d	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
-KDiff3	1.0	1033	9a76aad2bfe8594eace23fb4b5bee020	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Zip by Parent Name	1.2		4d0b8ae985734ba06252f5c2ee942621	Zip up multiple files and naming by the parent directory's name.
-Send iMessage With Attachment to Phone Number	1.5	1021	25d0e236c42c8d4dfcd25b3086a6df1f	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
-Pushbullet	1.1	1032	65dd3c4047204485b33fbebf7a3d0ad8	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.2	1023	a963f619b0e3d32c42e2bd32aa407a03	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-Gfycat	1.0		25eb79c74d22d84cbc10f747a9214fa8	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	530a13edce8a103726179d5e614cf1ac	Uploads images to ImageShack. Drop multiple images to create an album.
+Pushover	1.2	7002	46e5f95ecb9af93dd907fd8b884edcec	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
+KDiff3	1.0	1033	5b0b157d9250af033d624691af6ecfa3	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Zip by Parent Name	1.2		dee1afd2c5d8bfa4635106ad8645b5a9	Zip up multiple files and naming by the parent directory's name.
+Send iMessage With Attachment to Phone Number	1.5	1021	21db2bc675514dfc9b9182c01d9c951e	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
+Pushbullet	1.1	1032	f4be9e354907ec09b38482205ede450e	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Say Text	1.2	1023	068cba944d5c6837c30e3e5e7d4f514a	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+Gfycat	1.0		b0dde3ec2ba70d0a4dd9bb9c3e3cadad	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	7a249e9f78c8fe89e67c690e5176018e	Uploads images to ImageShack. Drop multiple images to create an album.
 Unbundle Zip by Name	1.0	1008	981ecd3d91efdebc93eea01009f2e077	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
 Screenshot	1.0	1037	3dcf49bfa50f7ebeb9e2ce741adb2a6d	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	fa4b947d9861aaf97298e1fdb2e4878a	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
@@ -27,7 +27,7 @@ File Sort	1.1	7001	18acd9a15c1721f89ca312c02f953d74	Auto move a file to its corr
 Gist	1.4	1034	1c42d2652a7c8fa76d2fc631cebd70fb	Sends the dropped text or files to the GitHub Gist service (http://gist.github.com) and puts the resulting URL on the clipboard.\nGists are private by default, hold any modifier key while dragging to create a public one.\n\nCreate a personal access token at https://github.com/settings/tokens with gist permissions and paste this into the API key field.
 Decode Base64	1.0	23452	5e82b6eb044bb5945b4256ccf88074c7	Decodes the text or the content of the clipboard using Base64 and puts the result in the clipboard. Alt-Drag text to encode.
 Mail Link	1.1	1029	5d2fa5fc9e5b25c94dfd86e1e3204b47	Drag and drop a link onto this action and a new email will be created in Mail.app with the link.
-YouTube Downloader	1.9	1036	87341c6167382f3130f4c6773e2b56d1	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
+YouTube Downloader	1.9	1036	1df1bac863bdbcff9ca428fe70a87a50	Allows you to quickly download videos from YouTube and many other video sites. Downloaded videos are placed in the chosen folder.\n\nDownloads the highest quality version of the video and audio possible - This means the video and audio are sometimes downloaded seperately and the two files are automatically merged back together after the download completes.\n\nDrag a video URL onto the action or copy a URL onto the clipboard and then click the action to initiate download.
 Node HTTP Server at Path	1.0		ac6638e49eba920334af2bd04c6da0d6	Creates a Node HTTP-Server at path and opens default browser. Node http-server required, to install `npm install -g http-server` Close iTerm or CTRL+C to quit server
 Image Search	1.0	1022	0b3b90fbf3cb4977970437ee91040312	Dropped images will be searched for using Google Image Search.
 Qiniu	1.3	0830	df7a5349734c0b833a8ddbfc20ba17f3	Upload images to qiniu.com
@@ -50,6 +50,6 @@ SCP Upload	1.6	1009	7190a614a0c9f131be678837335dc9b0	Allows files to be uploaded
 Strip PDF Front	1.0		b81301e19460b3b3753386b82d89fb77	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
 NotePad	1.2	394873920485738920	a1e5c0ab295cbdf77e7c2072f8718603	This action will copy the contents of the file dropped or the text dropped and place it into the designated [NotePad](https://github.com/raguay/TextBarScripts) note. NotePad is a script for [TextBar](http://richsomerfield.com/apps/textbar/).
 MD to HTML Presentation Converter	1.2		8e27026065dd9ecbd40527eadb0713cb	This function is called with Dropzone has files dropped on this action.
-Print	1.3	1012	3c0f09cd4f14598f062b015cd2e43d2d	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
-Open Terminal at Path	1.2	1030	9b2325f430ad12b99af18e35436e2958	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
-Screensaver	1.0	1006	42fc41cea62515fad0ed59149cf38b93	Starts the screensaver.
+Print	1.3	1012	7f56121c4f31ef391f178fe24756b170	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
+Open Terminal at Path	1.2	1030	7fcd551da337ab03cd6cb5b07cb2969e	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
+Screensaver	1.0	1006	e46d807b703e60faf4becd7857889dfc	Starts the screensaver.
