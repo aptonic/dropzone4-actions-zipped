@@ -1,13 +1,13 @@
 Up1	1.2	2175601	ec9d1599e0ddf6da904e471f4f4d93c7	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
 Sparse Image	1.1	7003	1bce2599bd32fc041d3b4d850f9dcb39	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.2	7002	c6d43aa005ab0860abac6d9cb218ca36	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
-KDiff3	1.0	1033	be5385e0bcec11656511e0a9a2f2288e	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Zip by Parent Name	1.2		ec59e8e505005c9bed081d477f6f20cf	Zip up multiple files and naming by the parent directory's name.
-Send iMessage With Attachment to Phone Number	1.5	1021	ce8f5bbb54395a0b851fc0718491411d	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
-Pushbullet	1.1	1032	e8467050ea48046eb77ba0aea66a66df	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.2	1023	a476ec2d7533fa3191e0f732b5d11ec0	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-Gfycat	1.0		c5b6795d2c3ddfc6ddfdc577342533af	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	eac120a18d36364e26b92418214b879d	Uploads images to ImageShack. Drop multiple images to create an album.
+Pushover	1.2	7002	5a0973a14c6d71d92fc7bfd87e343e1b	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
+KDiff3	1.0	1033	c7694cf13dfd743a9568205fb50578d5	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Zip by Parent Name	1.2		cbd72669e923d2d07b073705083a61c2	Zip up multiple files and naming by the parent directory's name.
+Send iMessage With Attachment to Phone Number	1.5	1021	947bdea05fdfb7b8677bc1d40b132d10	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
+Pushbullet	1.1	1032	e00e39481462689d657309c0509d4cf6	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Say Text	1.2	1023	b6433bf01bebfa8e03b4a096520066ae	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+Gfycat	1.0		92f32efcf167ba399f6abc7e455448c3	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	9f4d1d98a7bc33d5197653e881759521	Uploads images to ImageShack. Drop multiple images to create an album.
 Unbundle Zip by Name	1.0	1008	da2a0b692aacf154c4b6f09458241b16	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
 Screenshot	1.0	1037	5fd4705ffeb62053226f88c17072b79d	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	6ecfd400fdba7483bbdc315bb6e1f509	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
@@ -50,6 +50,6 @@ SCP Upload	1.6	1009	77b5b677ba97298ba6fe1a3b9efde437	Allows files to be uploaded
 Strip PDF Front	1.0		d7517a24adc51761db5e7ca275573748	This actions takes PDF files, copies out the front cover picture, and scales it to the given size and the type given. Set the width and extension by clicking on the action. It uses the ImageMagick programs and the XPDF programs. Both are installable using HomeBrew. "brew install imagemagick" and "brew install xpdf".
 NotePad	1.2	394873920485738920	9ecefc9f775a095035325ba5d5db6740	This action will copy the contents of the file dropped or the text dropped and place it into the designated [NotePad](https://github.com/raguay/TextBarScripts) note. NotePad is a script for [TextBar](http://richsomerfield.com/apps/textbar/).
 MD to HTML Presentation Converter	1.2		1d9dd4f8518ce68590169dc93cebe762	This function is called with Dropzone has files dropped on this action.
-Print	1.3	1012	7f56121c4f31ef391f178fe24756b170	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
-Open Terminal at Path	1.2	1030	155ed677942aeefac67c06b2ae943488	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
-Screensaver	1.0	1006	bc6a73d871dd9ce6cfd9075724e18b9f	Starts the screensaver.
+Print	1.3	1012	0a36dd4598423e4267075af81ccff930	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
+Open Terminal at Path	1.2	1030	dbdec8a27667889967bb00fd4624945e	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
+Screensaver	1.0	1006	6b2091e5dc3942d429d8d12393aa1d79	Starts the screensaver.
