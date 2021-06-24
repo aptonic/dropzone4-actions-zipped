@@ -51,5 +51,5 @@ Strip PDF Front	1.0		ebfbae01d2bdff77a689b2d59e6db477	This actions takes PDF fil
 NotePad	1.2	394873920485738920	64f99699155f69de865cce2a96454b26	This action will copy the contents of the file dropped or the text dropped and place it into the designated [NotePad](https://github.com/raguay/TextBarScripts) note. NotePad is a script for [TextBar](http://richsomerfield.com/apps/textbar/).
 MD to HTML Presentation Converter	1.2		408719462c05a0519202f5e5959bae28	This function is called with Dropzone has files dropped on this action.
 Print	1.3	1012	a2a1562de0cdb08eaf81640b715823eb	Dropped files will be printed. If you have multiple printers, you will be prompted for which printer you wish to use.\n\nNote this action is intended as just a quick and dirty way to quickly print an image, PDF, Pages or MS Office document. It is not intended to let you configure print settings.
-Open Terminal at Path	1.2	1030	dbdec8a27667889967bb00fd4624945e	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
-Screensaver	1.0	1006	6b2091e5dc3942d429d8d12393aa1d79	Starts the screensaver.
+Open Terminal at Path	1.2	1030	a498f88cd3b046afc4ba33ac27282712	Drop a file or folder on this action to open a new Terminal window at the files path. You can also drop a textual path.
+Screensaver	1.0	1006	c431c9ab9e8b1fec0bce76db9a983590	Starts the screensaver.
