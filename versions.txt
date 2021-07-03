@@ -1,13 +1,13 @@
 Up1	1.2	2175601	a0001516323acbddd00ede52fc8e8d08	Sends the clipboard or any dropped text or file content to the Up1 service (https://up1.ca) and puts the URL on the clipboard. Data are encrypted thanks to the SJCL AES-CCM encryption ported to Ruby by Mark Percival (https://github.com/mdp/sjcl_rb). Due to the limitation of the encryption library, all operations are achieves in memory, therefore uploading very large file is NOT recommended.
 Sparse Image	1.1	7003	bf92615dcf433f3fc7a2f7dbf2136c88	Creates a Sparse Image with dropped files and places it on the Desktop.\nHolding the Option key while dragging creates an AES-256 bits encrypted Sparse image.
-Pushover	1.2	7002	4d0b745acb6a501c1b9fee84dabea21c	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
-KDiff3	1.0	1033	cd77596fb863ae9ccbab3cb99649214b	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
-Zip by Parent Name	1.2		79742862379bbaec115156f76fc7c7c6	Zip up multiple files and naming by the parent directory's name.
-Send iMessage With Attachment to Phone Number	1.5	1021	49f1d171446e037d531686b18c703027	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
-Pushbullet	1.1	1032	f99e048172062da07c8d27284763f342	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
-Say Text	1.2	1023	d30bdcc2cd239bd27d2346c34458f670	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
-Gfycat	1.0		341d761cacc635a5fdf29da3a0baa631	Uploads gif and mp4 files to gfycat
-ImageShack	1.2	1005	9b4a85b461af64f779fc00151059981a	Uploads images to ImageShack. Drop multiple images to create an album.
+Pushover	1.2	7002	bab9b6ce2b58c2725f80a268966ab62d	Send message via a Pushover notification (https://pushover.net/). Hold Alt Key to select a device, Shift Key to refresh devices list and Command key to reset settings.
+KDiff3	1.0	1033	2b9fcb7aeea8f7be224b9c6e9b0a3e06	Drag 2 or 3 files or folders to diff them with KDiff3. Hold a modifier key (⌘, ⌥, ⌃, or ⇧) while dragging to merge the items.
+Zip by Parent Name	1.2		e531cf44a1f3f3edcc36d61179e83f11	Zip up multiple files and naming by the parent directory's name.
+Send iMessage With Attachment to Phone Number	1.5	1021	9466db83418e018b04dbd88a7cec4f5e	Send an iMessage with a file attachment to a preset phone number.\n\nClick the action in the grid to set the phone number.
+Pushbullet	1.1	1032	5b885c751e748b9e96c1f12a2a6513d3	Push file to your Pushbullet. Holding `Option` when dropping reopens the device-select dialog.
+Say Text	1.2	1023	8039fa7250e07b73a9853106d215ff5b	Text dragged onto this action will be read aloud to you.\nClick the action to read text on the clipboard.
+Gfycat	1.0		c7c71dffd32643f8bb8527496fff1779	Uploads gif and mp4 files to gfycat
+ImageShack	1.2	1005	f4f3be03c5599293b0c789d0c74f2a8a	Uploads images to ImageShack. Drop multiple images to create an album.
 Unbundle Zip by Name	1.0	1008	950e24f3a1bf7f6e0c7276745546f5cf	This action will unzip a zip file into the curret directory and rename the files to the name of the zip file.
 Screenshot	1.0	1037	10bcb2d9d1edf3e0d26b17aa979253b7	Take a screenshot, add it to ~/Screenshots and add to Drop Bar
 Finder Path	1.2	1003	914a198d7d2252841ea858c0df218f8f	Click on this action to copy the path of the currently selected item in the Finder to the clipboard.\n\nYou can also drag files onto it and it will put the paths of the dragged files on the clipboard.
@@ -33,9 +33,9 @@ Image Search	1.0	1022	244813a5326c92bbc242188f1e492689	Dropped images will be se
 Qiniu	1.3	0830	fd0acbf477f5778b2e314c89e21edd66	Upload images to qiniu.com
                 Quick image converter and compressor	             1.1.0		d86af9a25931e2a135278ff1e6cad10c	         Converts one or more image files into JPG, resizes it to maximum 1000px and compresses it to 75%. A great solution for images intended to be used on websites or blogs.
 Slack	1.1	1019	74aea30a26c22056e60b931f23729327	Uploads files to a Slack channel \n\nIn order to get the token needed for the API Key field below, login at https://slack.com with your account and afterwards go to https://api.slack.com. Scroll down and copy the token value from the Authentication section in the API Key below.
-md5 Filename	1.0.0		0ac404e66020cf45d1e07ae1cacbb8a6	Renames any dragged file(s) to a random, eight-characters-long md5 string.
-Show Image Size	1.0.0		8669c11e1544d215545ac88969bb179e	Displays the width and height of a local or remote image file.
-DRACOON	2.0.2	3920135319837973180911208394894	563a25e49b8f995db502f62643cecaa4	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
+md5 Filename	1.0.0		b3f72d468358848f92c8fb732b9c1b12	Renames any dragged file(s) to a random, eight-characters-long md5 string.
+Show Image Size	1.0.0		f84d182c46813ce032e9d5c094229289	Displays the width and height of a local or remote image file.
+DRACOON	2.0.2	3920135319837973180911208394894	b44523396ea05175d2c2c0d02a7238c4	Upload a file to DRACOON and create a Download Share (URL will be placed in clipboard). Holding 'Command' (⌘) or 'Option' (⌥) will expire the uploaded file and its Download Share after 14 days, 'Control' (^) or 'Option' (⌥) will allow you to set a password for the Download Share. Holding 'Shift' (⇧) just uploads the file without sharing it. Clicking on this Action copies the latest Share Link to the clipboard.\nIcon is property of DRACOON GmbH.
 Install Application	1.4	1011	7e88be04377f179618a2d93b23224f10	Drop an application disk image and it will be mounted, installed and ejected. The application will then be launched.
 Kaleidoscope Diff	1.1	1018	83f2b370ee7ec5a984de536ea10391f8	Drag two or more files to diff them with Kaleidoscope
 Merge Directories	1.2		cbbfa3cb49f6b719f8816c7cf6951de4	Takes directories as the input. Each directory should have the same number of files. The files are combined into a zip: one from each directory in order.
